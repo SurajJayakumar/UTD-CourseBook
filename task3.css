@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial Bold, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D5D2CA;
+}
+
+header {
+    background-color: #C75B12;
+    font-family: Arial;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+header img{
+    width:20rem;
+    float:left;
+    vertical-align: bottom;
+}
+
+nav ul {
+    background-color: #008542;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding:15px;
+    display: block;
+}
+nav a:hover{
+    background-color: hsl(100,100%,10%);
+}
+nav li{
+    float:left;
+
+}
+
+main {
+    
+    padding: 20px;
+}
+
+#search input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.course {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.course:hover{
+    background-color: #f1f1f1;
+}
+.details {
+    display: none;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #006341;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d31;
+}
+
+#add-course {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+#location {
+    color: #008542;
+}
+
+footer {
+    background: #C75B12;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: default;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#search {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#suggestions {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display:block;
+}
+
+#suggestions li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+#suggestions li:hover {
+    background-color: #f1f1f1;
+}
